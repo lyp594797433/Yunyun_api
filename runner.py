@@ -373,7 +373,7 @@ def multi_new_add(hallcode_list, type="2", is_need_review=0):
 		ret = thread.get_return()
 		if ret == False:
 			return False
-
 	return True
+'''test_git'''
 
 
