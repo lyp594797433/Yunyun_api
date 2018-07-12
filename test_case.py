@@ -169,6 +169,7 @@ class Test_case(runner.Runner):
 				videosSectionDtos_rtn['isupload'] = "true"
 				videosSectionDtos_list.append(videosSectionDtos_rtn)
 			videosChapterDtos_rtn['videosSectionDtos'] = videosSectionDtos_list
+
 			videosChapterDtos_list.append(videosChapterDtos_rtn)
 
 		temp_dict['videosChapterDtos'] = videosChapterDtos_list
