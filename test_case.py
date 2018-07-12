@@ -1,5 +1,5 @@
 # -*- coding=utf-8 -*-
-import utils,runner,log,time,json,simplejson
+import utils,runner,log,time,json,simplejson,random
 # obj_tools = utils.Tools()
 obj_log = log.get_logger()
 isbn_list = {'A': '9787308156417', 'B': '9787516143261', 'C': '9787509745816', 'D': '9787040213607', 'E': '9787509755280', 'F': '9787516410790', 'G': '9787561466584',
@@ -147,21 +147,24 @@ class Test_case(runner.Runner):
 		return True
 	def movie_upload(self):
 		req_type = "PUT"
-		now_time = time.strftime("%Y-%m-%d-%H-%M", time.localtime(time.time()))
+		now_time = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime(time.time()))
 		get_categoryId = self._get_SecondCategory()
 		print get_categoryId
 		temp_dict = {}
 		videosChapterDtos_list = []
-		videosSectionDtos_list = []
+
 		for k in range(1,3):
+			videosSectionDtos_list = []
 			videosChapterDtos_rtn = {}
 			videosChapterDtos_rtn['sortNum'] = k
+			videosChapterDtos_rtn['index'] = k - 1
 			videosChapterDtos_rtn['name'] = "第" + str(k) + "章"
 			videosChapterDtos_rtn['isParashow'] = "true"
 			for i in range(1,3):
 				videosSectionDtos_rtn = {}
 				videosSectionDtos_rtn['name'] = "第" + str(k) + "章" +  "第" + str(i) + "节"
 				videosSectionDtos_rtn['sortNum'] = i
+				videosSectionDtos_rtn['index'] = i - 1
 				videosSectionDtos_rtn['videoName'] = "第" + str(k) + "章" +  "第" + str(i) + "节" + "视频"
 				videosSectionDtos_rtn['videoPath'] = "video/9/7/1531382433997.mp4"
 				videosSectionDtos_rtn['videoSize'] = 58707397
@@ -173,9 +176,11 @@ class Test_case(runner.Runner):
 			videosChapterDtos_list.append(videosChapterDtos_rtn)
 
 		temp_dict['videosChapterDtos'] = videosChapterDtos_list
+		print temp_dict['videosChapterDtos']
 		temp_dict['videosStatus'] = {"index":3}
-		temp_dict['firstCategoryId'] = 1
-		temp_dict['secondCategoryId'] = 34
+		temp_dict['firstCategoryId'] = random.choice(get_categoryId.keys())
+		firstCategoryId = random.choice(get_categoryId.keys())
+		temp_dict['secondCategoryId'] = random.choice(get_categoryId[firstCategoryId])
 		temp_dict['name'] = "视频名称" + now_time
 		temp_dict['startTime'] = "2018-7-12"
 		temp_dict['endTime'] = "2019-7-12"
