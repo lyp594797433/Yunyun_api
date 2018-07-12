@@ -113,7 +113,7 @@ class Tools(Singleton):
 		if password == '':
 			temp_dict['password'] = self.get_md5(self.password)
 		else:
-			temp_dict['password'] = password
+			temp_dict['password'] = self.get_md5(password)
 		values = json.dumps(temp_dict)
 		API_URL = "http://" + self.add + "/api/user/login"
 		headers = {
@@ -268,14 +268,24 @@ class Tools(Singleton):
 		# 	db='bookplatform_back',
 		# )
 
+		# conn = MySQLdb.connect(
+		# 	host='rm-wz91b2j3ypnw1fbr6o.mysql.rds.aliyuncs.com',
+		# 	port=3306,
+		# 	user='yuntutest',
+		# 	passwd='y!unTu@123',
+		# 	charset='utf8',
+		# 	db='bookplatform_test',
+		# )
+
 		conn = MySQLdb.connect(
-			host='rm-wz91b2j3ypnw1fbr6o.mysql.rds.aliyuncs.com',
+			host='120.77.80.162',
 			port=3306,
-			user='yuntutest',
-			passwd='y!unTu@123',
+			user='test',
+			passwd='123456',
 			charset='utf8',
 			db='bookplatform_test',
 		)
+
 		try:
 			obj_log.info("Get or change the data into MySql............")
 			cur = conn.cursor()

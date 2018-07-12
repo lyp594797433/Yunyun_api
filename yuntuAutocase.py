@@ -16,11 +16,15 @@ class Yuntu_case(unittest.TestCase):
 		pass
 	def add_new_arear(self):
 		obj_log.info('Add new start................')
-		self.assertEqual(self.obj_test_case.arear_new_add(["AABCE","AAALA"], type="2"), True)
+		self.assertEqual(self.obj_test_case.new_add("AABCE", type="2"), True)
+	def upload_movie(self):
+		obj_log.info('Upload movie start................')
+		self.assertEqual(self.obj_test_case.movie_upload(), True)
 
 def suite():
 	suite = unittest.TestSuite()
-	suite.addTest(Yuntu_case("add_new_arear"))
+	# suite.addTest(Yuntu_case("add_new_arear"))
+	suite.addTest(Yuntu_case("upload_movie"))
 
 	# suite.addTest(Yuntu_case("tearDown"))
 
