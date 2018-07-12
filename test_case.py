@@ -147,19 +147,19 @@ class Test_case(runner.Runner):
 		return True
 	def movie_upload(self):
 		req_type = "PUT"
+		now_time = time.strftime("%Y-%m-%d-%H-%M", time.localtime(time.time()))
 		get_categoryId = self._get_SecondCategory()
 		print get_categoryId
 		temp_dict = {}
 		videosChapterDtos_list = []
-		videosChapterDtos_rtn = {}
 		videosSectionDtos_list = []
-		videosSectionDtos_rtn = {}
-		for k in range(1):
+		for k in range(1,3):
+			videosChapterDtos_rtn = {}
 			videosChapterDtos_rtn['sortNum'] = k
 			videosChapterDtos_rtn['name'] = "第" + str(k) + "章"
 			videosChapterDtos_rtn['isParashow'] = "true"
-
-			for i in range(1):
+			for i in range(1,3):
+				videosSectionDtos_rtn = {}
 				videosSectionDtos_rtn['name'] = "第" + str(k) + "章" +  "第" + str(i) + "节"
 				videosSectionDtos_rtn['sortNum'] = i
 				videosSectionDtos_rtn['videoName'] = "第" + str(k) + "章" +  "第" + str(i) + "节" + "视频"
@@ -170,25 +170,23 @@ class Test_case(runner.Runner):
 				videosSectionDtos_list.append(videosSectionDtos_rtn)
 			videosChapterDtos_rtn['videosSectionDtos'] = videosSectionDtos_list
 
-		videosChapterDtos_list.append(videosChapterDtos_rtn)
+			videosChapterDtos_list.append(videosChapterDtos_rtn)
 
 		temp_dict['videosChapterDtos'] = videosChapterDtos_list
 		temp_dict['videosStatus'] = {"index":3}
 		temp_dict['firstCategoryId'] = 1
 		temp_dict['secondCategoryId'] = 34
-		temp_dict['name'] = "视频名称"
+		temp_dict['name'] = "视频名称" + now_time
 		temp_dict['startTime'] = "2018-7-12"
 		temp_dict['endTime'] = "2019-7-12"
 		temp_dict['author'] = "lyp"
-		temp_dict['content'] = "视频介绍"
-		temp_dict['image'] = self.obj_tools.get_imgbas64(r"C:\Users\Administrator\Desktop\APP\11.png")
-		print temp_dict['image']
-
-		time.sleep(200)
-		now_time = time.strftime("%Y-%m-%d-%H-%M", time.localtime(time.time()))
+		temp_dict['content'] = "视频介绍" + now_time
+		image_temp = self.obj_tools.get_imgbas64(r"C:\Users\Administrator\Desktop\APP\11.png")
+		temp_dict['image'] = "data:image/png;base64," + image_temp
 
 		API_URL = "http://" + self.add + "/api/videos/save"
-
+		token = self.obj_tools.loginYunyun(hallCode="YTSG", username="lyp", password="123456")
+		req = self.obj_tools.call_rest_api(API_URL, req_type, data_rtn=temp_dict, token=token)
 		if req['status'] == 200:
 			obj_log.info('Add new successfully........')
 		else:
