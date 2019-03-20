@@ -1,10 +1,10 @@
 # -*- coding=utf-8 -*-
-import sys,utils,unittest,runner,log,time,HTMLTestRunner
+import os,sys,utils,unittest,runner,log,time,HTMLTestRunner
 from test_case import Test_case
 from selenium import webdriver
 to_list = ["18782019436@163.com"]
 obj_log = log.get_logger()
-log_file = "E:\Yunyun_api\log\yuntu.log"
+log_file = (os.path.split(os.path.realpath(__file__)))[0] + '\\' + 'log\yuntu.log'
 fp = open(log_file,'w')
 class Yuntu_case(unittest.TestCase):
 	@classmethod
@@ -14,17 +14,22 @@ class Yuntu_case(unittest.TestCase):
 	def tearDown(self):
 		# driver.close()
 		pass
-	def add_new_arear(self):
+	def add_news(self):
 		obj_log.info('Add new start................')
-		self.assertEqual(self.obj_test_case.new_add("AABCE", type="2"), True)
+		self.assertEqual(self.obj_test_case.new_add("AAGYH", type=3), True)
 	def upload_movie(self):
 		obj_log.info('Upload movie start................')
-		self.assertEqual(self.obj_test_case.movie_upload(), True)
+		for i in range(5000):
+			self.assertEqual(self.obj_test_case.movie_upload(), True)
+
+	def add_activity(self):
+		obj_log.info('Add activity start................')
+		self.assertEqual(self.obj_test_case.activity_add(hallCode="AAGYH",type=3,isYtsg=False), True)
 
 def suite():
 	suite = unittest.TestSuite()
-	# suite.addTest(Yuntu_case("add_new_arear"))
-	suite.addTest(Yuntu_case("upload_movie"))
+	# suite.addTest(Yuntu_case("add_news"))
+	suite.addTest(Yuntu_case("add_activity"))
 
 	# suite.addTest(Yuntu_case("tearDown"))
 

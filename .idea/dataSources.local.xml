@@ -2,15 +2,13 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="jdbc:mysql://localhost:3306/rm-wz91b2j3ypnw1fbr6o.mysql.rds.aliyuncs.com" uuid="b86170a1-27e1-47cc-bc19-d6baccdaaa83">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>chensq</user-name>
     </data-source>
     <data-source name="jdbc:mysql://120.77.80.162:3306/bookplatform_test" uuid="4dbd557b-7be0-4525-bad5-8abe26cbbf11">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>test</user-name>
     </data-source>
   </component>

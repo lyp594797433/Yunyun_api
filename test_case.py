@@ -1,5 +1,5 @@
 # -*- coding=utf-8 -*-
-import utils,runner,log,time,json,simplejson,random
+import utils,runner,log,time,json,simplejson,random,time
 # obj_tools = utils.Tools()
 obj_log = log.get_logger()
 isbn_list = {'A': '9787308156417', 'B': '9787516143261', 'C': '9787509745816', 'D': '9787040213607', 'E': '9787509755280', 'F': '9787516410790', 'G': '9787561466584',
@@ -22,13 +22,13 @@ class Test_case(runner.Runner):
 		hallcode_temp = self.obj_tools.sql_event(get_customer_statement)
 		customer_code = hallcode_temp[0]['hallCode']
 		# 单位资讯
-		if type == "2":
+		if type == 2:
 			obj_log.info('Add new customer start................')
 
 			sql_statement = "SELECT provinceCode,cityCode,areaCode FROM system_customer WHERE hallCode = " + "'" + hallcode + "'"
 			customer_info_statement = "SELECT id, name from system_customer WHERE hallCode = " + "'" + hallcode + "'"
 		# 图书馆资讯
-		if type == "3":
+		if type == 3:
 			obj_log.info('Add new library start................')
 			library = hallcode
 			sql_statement = "SELECT provinceCode,cityCode,areaCode FROM librarys WHERE hallCode = " + "'" + library + "'"
@@ -51,7 +51,7 @@ class Test_case(runner.Runner):
 				new_AreaDtos_rtn['area'] = newAreaDtos_info[i]['areaCode']
 			new_AreaDtos_list.append(new_AreaDtos_rtn)
 			temp_dict['newAreaDtos'] = new_AreaDtos_list
-			print temp_dict['newAreaDtos']
+			print(temp_dict['newAreaDtos'])
 			if newAreaDtos_info[i]['cityCode'] is None:
 				province_statement = "SELECT name FROM system_province WHERE code = " + new_AreaDtos_rtn['province']
 				province_name = self.obj_tools.sql_event(province_statement)
@@ -93,7 +93,7 @@ class Test_case(runner.Runner):
 				else:
 					temp_dict['areaAddress'] = province_name + city_name + area_name
 					areaAddress_container = province_name + city_name + area_name
-		print temp_dict['areaAddress']
+		print(temp_dict['areaAddress'])
 		# 获取 当前用户ID-currentUserId
 		get_add_user = self._get_customer_user_info(customer_code)
 		temp_dict['currentUserId'] = get_add_user['id']
@@ -115,7 +115,7 @@ class Test_case(runner.Runner):
 		temp_dict['objVal'] = temp_dict['areaAddress']
 
 		API_URL = "http://" + self.add + "/api/news/newAdd"
-		if type == "1":
+		if type == 1:
 			obj_log.info("We will add the platform news......")
 
 		else:
@@ -123,7 +123,7 @@ class Test_case(runner.Runner):
 			add_customer_password = get_add_user['password']
 			token = self.obj_tools.loginYunyun(customer_code, add_customer_username, add_customer_password)
 			req = self.obj_tools.call_rest_api(API_URL, req_type, data_rtn=temp_dict, token=token)
-			print req
+			print(req)
 			if req['status'] == 200:
 				obj_log.info('Add new successfully........')
 			else:
@@ -145,11 +145,12 @@ class Test_case(runner.Runner):
 			obj_log.info("News audited start...... ")
 			new_audited_rtn = self._new_audited(new_id)
 		return True
+
 	def movie_upload(self):
 		req_type = "PUT"
 		now_time = time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime(time.time()))
 		get_categoryId = self._get_SecondCategory()
-		print get_categoryId
+		print(get_categoryId)
 		temp_dict = {}
 		videosChapterDtos_list = []
 
@@ -176,7 +177,7 @@ class Test_case(runner.Runner):
 			videosChapterDtos_list.append(videosChapterDtos_rtn)
 
 		temp_dict['videosChapterDtos'] = videosChapterDtos_list
-		print temp_dict['videosChapterDtos']
+		print(temp_dict['videosChapterDtos'])
 		temp_dict['videosStatus'] = {"index":3}
 		temp_dict['firstCategoryId'] = random.choice(get_categoryId.keys())
 		firstCategoryId = random.choice(get_categoryId.keys())
@@ -190,7 +191,7 @@ class Test_case(runner.Runner):
 		temp_dict['image'] = "data:image/png;base64," + image_temp
 
 		API_URL = "http://" + self.add + "/api/videos/save"
-		token = self.obj_tools.loginYunyun(hallCode="YTSG", username="lyp", password="123456")
+		token = self.obj_tools.loginYunyun(hallCode="YTSG", username="lyp审核", password="123456")
 		req = self.obj_tools.call_rest_api(API_URL, req_type, data_rtn=temp_dict, token=token)
 		if req['status'] == 200:
 			obj_log.info('Add new successfully........')
@@ -198,4 +199,116 @@ class Test_case(runner.Runner):
 			obj_log.info('Add new failed.......')
 			return False
 		return True
+
+	def activity_add(self, hallCode, type=2, isYtsg=True):
+		'''活动新增'''
+		hallCode = hallCode.upper()
+		req_type = "POST"
+		temp_dict = {}
+		now_time_temp = (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
+		now_timetamp = int(time.mktime(time.strptime(now_time_temp,"%Y-%m-%d %H:%M:%S")))*1000
+		now_time = time.localtime()
+		if type == 2:
+			'''单位活动'''
+			temp_dict['newAreaDtos'] = []
+			newAreaDtos_dict = {}
+			get_customerIdByHallcode = self._getCustomerInfoByHallcode(hallCode)
+			get_customerinfo = self._getCustomerInfoById(get_customerIdByHallcode['id'])
+			newAreaDtos_dict['area'] = get_customerinfo['areaDto']['code']
+			newAreaDtos_dict['city'] = get_customerinfo['cityDto']['code']
+			newAreaDtos_dict['province'] = get_customerinfo['provinceDto']['code']
+			temp_dict['newAreaDtos'].append(newAreaDtos_dict)
+			temp_dict['type'] = type
+		if type == 3:
+			'''图书馆活动'''
+			temp_dict['newAreaDtos'] = []
+			newAreaDtos_dict = {}
+			get_customerIdByHallcode = self._getLibraryInfoByHallcode(hallCode)
+			get_customerinfo = self._getLibraryInfoById(get_customerIdByHallcode['id'])
+			newAreaDtos_dict['area'] = get_customerinfo['areaDto']['code']
+			newAreaDtos_dict['city'] = get_customerinfo['cityDto']['code']
+			newAreaDtos_dict['province'] = get_customerinfo['provinceDto']['code']
+			temp_dict['newAreaDtos'].append(newAreaDtos_dict)
+			temp_dict['type'] = type
+
+		image_info = self._upload_image()
+		temp_dict['image'] = image_info['fileName']
+		temp_dict['previewImage'] = image_info['base64']
+		temp_dict['address'] = '天堂有限公司2楼'
+
+		# temp_dict['createTime'] = {}
+		# temp_dict['createTime']['startDate'] = str(now_time.tm_year) + "-" + str(now_time.tm_mon) + "-" + str(
+		# 	now_time.tm_mday)
+		# temp_dict['createTime']['endDate'] = str(now_time.tm_year + 1) + "-" + str(now_time.tm_mon - 1) + "-" + str(
+		# 	now_time.tm_mday)
+		# temp_dict['createTime']['startHour'] = {}
+		# temp_dict['createTime']['startHour']['desc'] = now_time.tm_hour
+		# temp_dict['createTime']['endHour'] = {}
+		# temp_dict['createTime']['endHour']['desc'] = now_time.tm_hour
+		# temp_dict['createTime']['startMin'] = {}
+		# temp_dict['createTime']['startMin']['desc'] =  now_time.tm_min
+		# temp_dict['createTime']['endMin'] = {}
+		# temp_dict['createTime']['endMin']['desc'] =  now_time.tm_min
+
+
+		temp_dict['startDate'] = now_timetamp
+		temp_dict['endDate'] = now_timetamp + 25768000000
+
+		# temp_dict['applyTime'] = {}
+		# temp_dict['applyTime']['startDate'] =  str(now_time.tm_year) + "-" + str(now_time.tm_mon) + "-" + str(now_time.tm_mday)
+		# temp_dict['applyTime']['endDate'] = str(now_time.tm_year + 1) + "-" + str(now_time.tm_mon - 1) + "-" + str(now_time.tm_mday)
+		# temp_dict['applyTime']['startHour'] = {}
+		# temp_dict['applyTime']['startHour']['desc'] = now_time.tm_hour
+		# temp_dict['applyTime']['endHour'] = {}
+		# temp_dict['applyTime']['endHour']['desc'] = now_time.tm_hour
+		# temp_dict['applyTime']['startMin'] = {}
+		# temp_dict['applyTime']['startMin']['desc'] = now_time.tm_min
+		# temp_dict['applyTime']['endMin'] = {}
+		# temp_dict['applyTime']['endMin']['desc'] = now_time.tm_min
+
+		temp_dict['areaAddress'] = get_customerinfo['provinceDto']['name'] + get_customerinfo['cityDto']['name'] +\
+		                           get_customerinfo['areaDto']['name']
+		temp_dict['areaString'] = temp_dict['areaAddress']
+		temp_dict['content'] = "<p>" + "这是一条测试活动" + now_time_temp + "</p>"
+		temp_dict['title'] = "这是一条测试活动"  + now_time_temp
+
+		temp_dict['endRegistrationTime'] = now_timetamp + 25767000000
+		temp_dict['startRegistrationTime'] = now_timetamp
+		temp_dict['enrollment'] = 1
+		temp_dict['enrollmentContact'] = {}
+		temp_dict['enrollmentContact']['name'] = "林于棚"
+		temp_dict['enrollmentContact']['phone'] = "18782019436"
+		temp_dict['enrollmentContact']['tel'] = "18782019436"
+		temp_dict['width'] = 638
+		temp_dict['height'] = 281
+		temp_dict['x'] = '0'
+		temp_dict['y'] = '61'
+		temp_dict['sourceName'] =  get_customerinfo['name']
+		temp_dict['source'] = get_customerinfo['id']
+		temp_dict['quotaOfPeople'] = 10
+		temp_dict['isMsgShow'] = False
+
+		API_URL = "http://" + self.add + "/api/activity/add"
+		# 判断是否为平台新增的活动
+		if not isYtsg:
+			get_add_user = self._get_customer_user_info(hallCode)
+			add_customer_username = get_add_user['userName']
+			add_customer_password = get_add_user['password']
+			token = self.obj_tools.loginYunyun(hallCode, add_customer_username, add_customer_password)
+		else:
+			token = self.obj_tools.loginYunyun(hallCode="YTSG", username="lyp新增", password="123456")
+		req = self.obj_tools.call_rest_api(API_URL, req_type, data_rtn=temp_dict, token=token)
+		if req['status'] == 200:
+			obj_log.info('Add activity {} successfully........'.format(temp_dict['title']))
+		else:
+			obj_log.info('Add activity {} failed.......'.format(temp_dict['title']))
+			return False
+
+		# 获取活动ID
+		get_activityInfo = self._searchActivity(temp_dict['title'])
+		# 活动审核
+		activity_audited = self._activity_audited(get_activityInfo)
+		return True
+
+
 

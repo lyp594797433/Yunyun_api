@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://E:/Yuntu_App/runner.py" description="borrowable_number_temp = self.obj_utils.select_sql..." line="249" />
     <bookmark url="file://$PROJECT_DIR$/test.py" description="import datetime&#10;# 计算两个日期的间隔&#10;# d1 = datetime.dateti..." line="77" />
-    <bookmark url="file://$PROJECT_DIR$/runner.py" line="119" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/test_case.py" line="34" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/runner.py" line="177" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adf68a87-fdd1-41cc-ab32-5fbe2427be29" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/yuntu_performance.iml" />
-      <change beforePath="$PROJECT_DIR$/log/run.log" afterPath="$PROJECT_DIR$/log/run.log" />
-      <change beforePath="$PROJECT_DIR$/log/yuntu.log" afterPath="$PROJECT_DIR$/log/yuntu.log" />
-      <change beforePath="$PROJECT_DIR$/runner.py" afterPath="$PROJECT_DIR$/runner.py" />
-      <change beforePath="$PROJECT_DIR$/test_case.py" afterPath="$PROJECT_DIR$/test_case.py" />
-      <change beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
-      <change beforePath="$PROJECT_DIR$/yuntuAutocase.py" afterPath="$PROJECT_DIR$/yuntuAutocase.py" />
+    <list default="true" id="adf68a87-fdd1-41cc-ab32-5fbe2427be29" name="Default" comment="2018-7-12-videos">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLTestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/run.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/run.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/yuntu.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/yuntu.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yuntuAutocase.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuntuAutocase.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/yuntu_api$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1506306728002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Yunyun_api$timestamp.coverage" NAME="timestamp Coverage Results" MODIFIED="1529548696882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yuntu_performance$Unnamed.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1496832892040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yuntu_performance$test.coverage" NAME="test Coverage Results" MODIFIED="1496804512490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Yuntu_Mapi$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1513334717236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Yunyun_api$test.coverage" NAME="test Coverage Results" MODIFIED="1529027402466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yuntu_api$test.coverage" NAME="test Coverage Results" MODIFIED="1505978492847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Yunyun_api$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1529546967093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yuntu_performance$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1498724604752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Yunyun_api$python_yuntuAutocase_py.coverage" NAME="python yuntuAutocase.py Coverage Results" MODIFIED="1531392207425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yuntu_performance$runner.coverage" NAME="runner Coverage Results" MODIFIED="1497508347644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Yunyun_api$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntuAutocase.py Coverage Results" MODIFIED="1529055835207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yuntu_Mapi$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1513334717236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yuntu_performance$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1498724604752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yunyun_api$timestamp.coverage" NAME="timestamp Coverage Results" MODIFIED="1529548696882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yunyun_api$test.coverage" NAME="test Coverage Results" MODIFIED="1529027402466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yunyun_api$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1529546967093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yuntu_api$python_yuntu_bianmu_py_config_ini.coverage" NAME="python yuntu_bianmu.py config.ini Coverage Results" MODIFIED="1506306728002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Yunyun_api$python_yuntuAutocase_py.coverage" NAME="python yuntuAutocase.py Coverage Results" MODIFIED="1553071247001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yuntu_performance$test.coverage" NAME="test Coverage Results" MODIFIED="1496804512490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -76,119 +69,155 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="189" column="20" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="20" />
               <folding>
-                <marker date="1531380779548" expanded="true" signature="651:743" ph="SELECT userN... system_user" />
-                <marker date="1531380779548" expanded="true" signature="1051:1128" ph="SELECT id fr... system_user" />
-                <marker date="1531380779548" expanded="true" signature="1982:2074" ph="SELECT userN... system_user" />
-                <marker date="1531380779548" expanded="true" signature="2499:2546" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="2499:2547" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="2499:2553" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="2499:2556" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="2499:2565" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="2499:2570" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="2696:2753" ph="SELECT id FR... system_user_department" />
-                <marker date="1531380779548" expanded="true" signature="2696:2793" ph="SELECT id FR... system_user_department" />
-                <marker date="1531380779548" expanded="true" signature="2696:2808" ph="SELECT id FR... system_user_department" />
-                <marker date="1531380779548" expanded="true" signature="2696:2850" ph="SELECT id FR... system_user_department" />
-                <marker date="1531380779548" expanded="true" signature="2696:2855" ph="SELECT id FR... system_user_department" />
-                <marker date="1531380779548" expanded="true" signature="3081:3128" ph="SELECT id FR... system_user_duty" />
-                <marker date="1531380779548" expanded="true" signature="3081:3164" ph="SELECT id FR... system_user_duty" />
-                <marker date="1531380779548" expanded="true" signature="3081:3220" ph="SELECT id FR... system_user_duty" />
-                <marker date="1531380779548" expanded="true" signature="3856:3991" ph="UPDATE system_user... " />
-                <marker date="1531380779548" expanded="true" signature="4788:4829" ph="SELECT statu... system_news" />
-                <marker date="1531380779548" expanded="true" signature="4788:4830" ph="SELECT statu... system_news" />
-                <marker date="1531380779548" expanded="true" signature="4788:4834" ph="SELECT statu... system_news" />
-                <marker date="1531380779548" expanded="true" signature="5079:5192" ph="SELECT hallC... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="5128:5171" ph="SELECT sourc... system_news" />
-                <marker date="1531380779548" expanded="true" signature="5128:5172" ph="SELECT sourc... system_news" />
-                <marker date="1531380779548" expanded="true" signature="5128:5188" ph="SELECT sourc... system_news" />
-                <marker date="1531380779548" expanded="true" signature="5356:5400" ph="SELECT sourc... system_news" />
-                <marker date="1531380779548" expanded="true" signature="5555:5647" ph="SELECT hallC... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="5555:5671" ph="SELECT hallC... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="5604:5647" ph="SELECT custo... librarys" />
-                <marker date="1531380779548" expanded="true" signature="5860:5923" ph="SELECT id,us... system_user" />
-                <marker date="1531380779548" expanded="true" signature="5860:5955" ph="SELECT id,us... system_user" />
-                <marker date="1531380779548" expanded="true" signature="6951:7046" ph="SELECT id,us... system_user" />
-                <marker date="1531380779548" expanded="true" signature="7871:7963" ph="SELECT id fr... system_user" />
-                <marker date="1531380779548" expanded="true" signature="8317:8368" ph="SELECT roleI... system_user_role" />
-                <marker date="1531380779548" expanded="true" signature="8612:8727" ph="SELECT id, u... system_user" />
-                <marker date="1531380779548" expanded="true" signature="9163:9234" ph="SELECT id fr... system_customer" />
-                <marker date="1531380779548" expanded="true" signature="9375:9490" ph="SELECT id FR... system_role" />
-                <marker date="1531380779548" expanded="true" signature="9656:9805" ph="SELECT id, u... system_user" />
+                <element signature="e#23#93#0" expanded="true" />
+                <marker date="1553070804516" expanded="true" signature="720:812" ph="SELECT userN... system_user" />
+                <marker date="1553070804516" expanded="true" signature="1103:1180" ph="SELECT id fr... system_user" />
+                <marker date="1553070804516" expanded="true" signature="2061:2153" ph="SELECT userN... system_user" />
+                <marker date="1553070804516" expanded="true" signature="2578:2625" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="2578:2626" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="2578:2632" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="2578:2635" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="2578:2644" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="2578:2649" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="2775:2832" ph="SELECT id FR... system_user_department" />
+                <marker date="1553070804516" expanded="true" signature="2775:2872" ph="SELECT id FR... system_user_department" />
+                <marker date="1553070804516" expanded="true" signature="2775:2887" ph="SELECT id FR... system_user_department" />
+                <marker date="1553070804516" expanded="true" signature="2775:2929" ph="SELECT id FR... system_user_department" />
+                <marker date="1553070804516" expanded="true" signature="2775:2934" ph="SELECT id FR... system_user_department" />
+                <marker date="1553070804516" expanded="true" signature="3160:3207" ph="SELECT id FR... system_user_duty" />
+                <marker date="1553070804516" expanded="true" signature="3160:3243" ph="SELECT id FR... system_user_duty" />
+                <marker date="1553070804516" expanded="true" signature="3160:3299" ph="SELECT id FR... system_user_duty" />
+                <marker date="1553070804516" expanded="true" signature="3934:4069" ph="UPDATE system_user... " />
+                <marker date="1553070804516" expanded="true" signature="5216:5257" ph="SELECT statu... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5216:5258" ph="SELECT statu... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5216:5262" ph="SELECT statu... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5507:5620" ph="SELECT hallC... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="5556:5599" ph="SELECT sourc... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5556:5600" ph="SELECT sourc... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5556:5616" ph="SELECT sourc... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5784:5828" ph="SELECT sourc... system_news" />
+                <marker date="1553070804516" expanded="true" signature="5983:6075" ph="SELECT hallC... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="5983:6099" ph="SELECT hallC... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="6032:6075" ph="SELECT custo... librarys" />
+                <marker date="1553070804516" expanded="true" signature="6288:6351" ph="SELECT id,us... system_user" />
+                <marker date="1553070804516" expanded="true" signature="6288:6383" ph="SELECT id,us... system_user" />
+                <marker date="1553070804516" expanded="true" signature="7379:7474" ph="SELECT id,us... system_user" />
+                <marker date="1553070804516" expanded="true" signature="10652:10744" ph="SELECT id fr... system_user" />
+                <marker date="1553070804516" expanded="true" signature="11098:11149" ph="SELECT roleI... system_user_role" />
+                <marker date="1553070804516" expanded="true" signature="11392:11507" ph="SELECT id, u... system_user" />
+                <marker date="1553070804516" expanded="true" signature="11943:12014" ph="SELECT id fr... system_customer" />
+                <marker date="1553070804516" expanded="true" signature="12155:12270" ph="SELECT id FR... system_role" />
+                <marker date="1553070804516" expanded="true" signature="12436:12585" ph="SELECT id, u... system_user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yuntuAutocase.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/python3.7.2/Lib/site-packages/urllib3/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11704">
+              <caret line="548" selection-start-line="548" selection-end-line="548" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yuntuAutocase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="176">
+              <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+              <folding>
+                <element signature="e#23#82#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_case.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/python3.7.2/Lib/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13288">
+              <caret line="617" selection-start-line="617" selection-end-line="617" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/yuntu.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="235">
+              <caret line="274" column="69" selection-start-line="274" selection-start-column="69" selection-end-line="274" selection-end-column="69" />
               <folding>
-                <marker date="1531392491294" expanded="true" signature="1132:1249" ph="SELECT hallC... system_customer" />
-                <marker date="1531392491294" expanded="true" signature="1181:1248" ph="SELECT custo... librarys" />
-                <marker date="1531392491294" expanded="true" signature="1471:1570" ph="SELECT provi... system_customer" />
-                <marker date="1531392491294" expanded="true" signature="1602:1679" ph="SELECT id, n... system_customer" />
-                <marker date="1531392491294" expanded="true" signature="1808:1899" ph="SELECT provi... librarys" />
-                <marker date="1531392491294" expanded="true" signature="1931:2000" ph="SELECT id, n... librarys" />
-                <marker date="1531392491294" expanded="true" signature="2805:2851" ph="SELECT name system_province" />
-                <marker date="1531392491294" expanded="true" signature="3357:3403" ph="SELECT name system_province" />
-                <marker date="1531392491294" expanded="true" signature="3568:3610" ph="SELECT name system_city" />
-                <marker date="1531392491294" expanded="true" signature="4045:4091" ph="SELECT name system_province" />
-                <marker date="1531392491294" expanded="true" signature="4256:4298" ph="SELECT name system_city" />
-                <marker date="1531392491294" expanded="true" signature="4443:4485" ph="SELECT name system_area" />
-                <marker date="1531392491294" expanded="true" signature="6280:6403" ph="SELECT id FR... system_news" />
-                <marker date="1531392491294" expanded="true" signature="6628:6725" ph="SELECT userN... system_user" />
+                <marker date="1553071183373" expanded="true" signature="1144:1261" ph="SELECT hallC... system_customer" />
+                <marker date="1553071183373" expanded="true" signature="1193:1260" ph="SELECT custo... librarys" />
+                <marker date="1553071183373" expanded="true" signature="1481:1580" ph="SELECT provi... system_customer" />
+                <marker date="1553071183373" expanded="true" signature="1612:1689" ph="SELECT id, n... system_customer" />
+                <marker date="1553071183373" expanded="true" signature="1816:1907" ph="SELECT provi... librarys" />
+                <marker date="1553071183373" expanded="true" signature="1939:2008" ph="SELECT id, n... librarys" />
+                <marker date="1553071183373" expanded="true" signature="2814:2860" ph="SELECT name system_province" />
+                <marker date="1553071183373" expanded="true" signature="3366:3412" ph="SELECT name system_province" />
+                <marker date="1553071183373" expanded="true" signature="3577:3619" ph="SELECT name system_city" />
+                <marker date="1553071183373" expanded="true" signature="4054:4100" ph="SELECT name system_province" />
+                <marker date="1553071183373" expanded="true" signature="4265:4307" ph="SELECT name system_city" />
+                <marker date="1553071183373" expanded="true" signature="4452:4494" ph="SELECT name system_area" />
+                <marker date="1553071183373" expanded="true" signature="6289:6412" ph="SELECT id FR... system_news" />
+                <marker date="1553071183373" expanded="true" signature="6637:6734" ph="SELECT userN... system_user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="148" column="15" lean-forward="false" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
-              <folding>
-                <element signature="e#23#120#0" expanded="true" />
-                <marker date="1531366558636" expanded="true" signature="610:1106" ph="..." />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="88">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yuntu.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/yuntu.log">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/python3.7.2/Lib/logging/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="151">
+              <caret line="904" selection-start-line="904" selection-end-line="904" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="201" selection-start-line="201" selection-end-line="201" />
+              <folding>
+                <element signature="e#23#99#0" expanded="true" />
+                <marker date="1553070596420" expanded="true" signature="580:1081" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,23 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>port</find>
-      <find>self.password</find>
-      <find>requests</find>
-      <find>userName</find>
-      <find>successfully</find>
-      <find>unicode-escape</find>
-      <find>customer</find>
-      <find>customer_id</find>
-      <find>新增</find>
-      <find>decode</find>
-      <find>time</find>
-      <find>adm</find>
-      <find>remark</find>
-      <find>audited_user_id</find>
-      <find>add the news</find>
-      <find>user audited it</find>
-      <find>obj_log</find>
       <find>format</find>
       <find>print</find>
       <find>newAreaDtos</find>
@@ -231,9 +243,26 @@
       <find>pwd</find>
       <find>user</find>
       <find>my_user1</find>
-      <find>token</find>
       <find>req_type = 'GET'</find>
       <find>videosChapterDtos</find>
+      <find>call_rest_api</find>
+      <find>token</find>
+      <find>urlparse</find>
+      <find>namedtuple</find>
+      <find>now_time</find>
+      <find>loginYunyun</find>
+      <find>fileImage</find>
+      <find>def _</find>
+      <find>15L</find>
+      <find>type</find>
+      <find>content</find>
+      <find>now_timetamp</find>
+      <find>add_new_arear</find>
+      <find>role</find>
+      <find>Add user</find>
+      <find>role_add</find>
+      <find>15</find>
+      <find>have no user possess the power of add the news</find>
     </findStrings>
     <replaceStrings>
       <replace>sys.exit(0)</replace>
@@ -247,14 +276,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/utils.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/runner.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/log.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_case.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/yuntuAutocase.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/timestamp.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/getAllLibrarys.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/utils.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_case.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/log.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/timestamp.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -262,45 +291,27 @@
         <option value="$PROJECT_DIR$/yuntu_bianmu.py" />
         <option value="$PROJECT_DIR$/testReport.html" />
         <option value="$PROJECT_DIR$/log/run.log" />
-        <option value="$PROJECT_DIR$/log.py" />
-        <option value="$PROJECT_DIR$/config.ini" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/timestamp.py" />
         <option value="$PROJECT_DIR$/getAllLibrarys.py" />
         <option value="$PROJECT_DIR$/log/yuntu.log" />
-        <option value="$PROJECT_DIR$/yuntuAutocase.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/log.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/runner.py" />
         <option value="$PROJECT_DIR$/test_case.py" />
+        <option value="$PROJECT_DIR$/yuntuAutocase.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-27" />
-    <option name="y" value="87" />
-    <option name="width" value="1616" />
-    <option name="height" value="886" />
+    <option name="width" value="800" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -311,21 +322,25 @@
               <item name="Yunyun_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="Yunyun_api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Yunyun_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yunyun_api" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Yuntu_api" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="SearchEverywhereHistoryKey" value="user_add&#9;null&#9;null&#10;get_out&#9;null&#9;null&#10;export_ToExcle&#9;null&#9;null&#10;dic&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yuntu_reader_api" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -343,275 +358,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.python yuntuAutocase.py">
-    <configuration name="python yuntuAutocase.py" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yuntuAutocase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="runner" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yuntuAutocase.py" />
-      <option name="PARAMETERS" value="ABCT" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="timestamp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timestamp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration default="true" type="ApexTest" factoryName="Apex Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="yuntu_performance" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yuntu_performance" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -634,30 +381,185 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration name="python yuntuAutocase.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\python3.7.2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yuntuAutocase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runner" type="PythonConfigurationType" factoryName="Python">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yuntuAutocase.py" />
+      <option name="PARAMETERS" value="ABCT" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="timestamp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/timestamp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.runner" />
-      <item index="2" class="java.lang.String" itemvalue="Python.python yuntuAutocase.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.timestamp" />
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="yuntu_performance" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.runner" />
+      <item itemvalue="Python.python yuntuAutocase.py" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.timestamp" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.timestamp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test1" />
+      <list>
+        <item itemvalue="Python.timestamp" />
+        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -669,6 +571,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496801857842</updated>
+      <workItem from="1552875790160" duration="20521000" />
+      <workItem from="1552958290310" duration="6205000" />
+      <workItem from="1552976138647" duration="12981000" />
+      <workItem from="1553044473262" duration="18949000" />
     </task>
     <task id="LOCAL-00001" summary="2018-7-9">
       <created>1531101280532</created>
@@ -698,8 +604,46 @@
       <option name="project" value="LOCAL" />
       <updated>1531103488904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2018-7-12-videos">
+      <created>1531392860993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531392860993</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2018-7-12-videos">
+      <created>1531394394823</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531394394823</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2018-7-12-videos">
+      <created>1531394416413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531394416413</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2018-7-12-videos">
+      <created>1531394428280</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531394428280</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2018-7-13-videos-successfully">
+      <created>1531397862715</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531397862715</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,222 +657,69 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278237" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2517194" sideWeight="0.437018" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3553719" sideWeight="0.562982" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3030303" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47796142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3168044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12017995" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.213125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38980716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12789203" />
+      <window_info id="Structure" order="2" weight="0.213125" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.46722364" side_tool="true" weight="0.30727023" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3030303" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.47796142" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3168044" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.562982" visible="true" weight="0.3978052" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.53277636" weight="0.30727023" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3278237" />
+      <window_info anchor="bottom" id="SFDX" order="11" />
+      <window_info anchor="bottom" id="Debug Logs" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Salesforce" order="14" />
+      <window_info anchor="bottom" id="Log Manager" order="15" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="16" />
+      <window_info anchor="bottom" id="Database Changes" order="17" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32969153" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018-7-9" />
     <MESSAGE value="2018-7-9-new" />
     <MESSAGE value="2018-7-9-new-git_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018-7-9-new-git_test" />
+    <MESSAGE value="2018-7-12-videos" />
+    <MESSAGE value="2018-7-13-videos-successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-7-13-videos-successfully" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="40" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_case.py</url>
+          <line>309</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yuntuAutocase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/yuntu.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/run.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="77" column="53" lean-forward="false" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
-          <folding>
-            <marker date="1531380779548" expanded="true" signature="651:743" ph="SELECT userN... system_user" />
-            <marker date="1531380779548" expanded="true" signature="1051:1128" ph="SELECT id fr... system_user" />
-            <marker date="1531380779548" expanded="true" signature="1982:2074" ph="SELECT userN... system_user" />
-            <marker date="1531380779548" expanded="true" signature="2499:2546" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2547" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2553" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2556" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2565" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2570" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2696:2753" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2793" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2808" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2850" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2855" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="3081:3128" ph="SELECT id FR... system_user_duty" />
-            <marker date="1531380779548" expanded="true" signature="3081:3164" ph="SELECT id FR... system_user_duty" />
-            <marker date="1531380779548" expanded="true" signature="3081:3220" ph="SELECT id FR... system_user_duty" />
-            <marker date="1531380779548" expanded="true" signature="3856:3991" ph="UPDATE system_user... " />
-            <marker date="1531380779548" expanded="true" signature="4788:4829" ph="SELECT statu... system_news" />
-            <marker date="1531380779548" expanded="true" signature="4788:4830" ph="SELECT statu... system_news" />
-            <marker date="1531380779548" expanded="true" signature="4788:4834" ph="SELECT statu... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5079:5192" ph="SELECT hallC... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="5128:5171" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5128:5172" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5128:5188" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5356:5400" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5555:5647" ph="SELECT hallC... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="5555:5671" ph="SELECT hallC... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="5604:5647" ph="SELECT custo... librarys" />
-            <marker date="1531380779548" expanded="true" signature="5860:5923" ph="SELECT id,us... system_user" />
-            <marker date="1531380779548" expanded="true" signature="5860:5955" ph="SELECT id,us... system_user" />
-            <marker date="1531380779548" expanded="true" signature="6951:7046" ph="SELECT id,us... system_user" />
-            <marker date="1531380779548" expanded="true" signature="7871:7963" ph="SELECT id fr... system_user" />
-            <marker date="1531380779548" expanded="true" signature="8317:8368" ph="SELECT roleI... system_user_role" />
-            <marker date="1531380779548" expanded="true" signature="8612:8727" ph="SELECT id, u... system_user" />
-            <marker date="1531380779548" expanded="true" signature="9163:9234" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="9375:9490" ph="SELECT id FR... system_role" />
-            <marker date="1531380779548" expanded="true" signature="9656:9805" ph="SELECT id, u... system_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-          <folding>
-            <marker date="1531392491294" expanded="true" signature="1132:1249" ph="SELECT hallC... system_customer" />
-            <marker date="1531392491294" expanded="true" signature="1181:1248" ph="SELECT custo... librarys" />
-            <marker date="1531392491294" expanded="true" signature="1471:1570" ph="SELECT provi... system_customer" />
-            <marker date="1531392491294" expanded="true" signature="1602:1679" ph="SELECT id, n... system_customer" />
-            <marker date="1531392491294" expanded="true" signature="1808:1899" ph="SELECT provi... librarys" />
-            <marker date="1531392491294" expanded="true" signature="1931:2000" ph="SELECT id, n... librarys" />
-            <marker date="1531392491294" expanded="true" signature="2805:2851" ph="SELECT name system_province" />
-            <marker date="1531392491294" expanded="true" signature="3357:3403" ph="SELECT name system_province" />
-            <marker date="1531392491294" expanded="true" signature="3568:3610" ph="SELECT name system_city" />
-            <marker date="1531392491294" expanded="true" signature="4045:4091" ph="SELECT name system_province" />
-            <marker date="1531392491294" expanded="true" signature="4256:4298" ph="SELECT name system_city" />
-            <marker date="1531392491294" expanded="true" signature="4443:4485" ph="SELECT name system_area" />
-            <marker date="1531392491294" expanded="true" signature="6280:6403" ph="SELECT id FR... system_news" />
-            <marker date="1531392491294" expanded="true" signature="6628:6725" ph="SELECT userN... system_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#23#120#0" expanded="true" />
-            <marker date="1531366558636" expanded="true" signature="610:1106" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yuntuAutocase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/yuntu.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/run.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/ run.log" />
     <entry file="file://$PROJECT_DIR$/yuntu_bianmu.py" />
     <entry file="file://$PROJECT_DIR$/yuntu.log" />
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="162" column="11" lean-forward="true" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-626">
-          <caret line="1800" column="8" lean-forward="false" selection-start-line="1800" selection-start-column="8" selection-end-line="1800" selection-end-column="8" />
+          <caret line="1800" column="8" selection-start-line="1800" selection-start-column="8" selection-end-line="1800" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -936,269 +727,212 @@
     <entry file="file://$PROJECT_DIR$/testReport.html" />
     <entry file="file://$PROJECT_DIR$/Report/20170629092419testReport.html" />
     <entry file="file://$PROJECT_DIR$/Report/201706290926testReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Report/201706291140testReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b86170a1-27e1-47cc-bc19-d6baccdaaa83/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/types.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="90" column="4" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3828">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13948">
-          <caret line="663" column="10" lean-forward="false" selection-start-line="663" selection-start-column="8" selection-end-line="663" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/run.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="6581" column="0" lean-forward="false" selection-start-line="6581" selection-start-column="0" selection-end-line="6582" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/hooks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="450" column="0" lean-forward="false" selection-start-line="450" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/sessions.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/hooks.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/utils.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="5018" column="8" lean-forward="false" selection-start-line="5018" selection-start-column="8" selection-end-line="5018" selection-end-column="8" />
+          <caret line="5018" column="8" selection-start-line="5018" selection-start-column="8" selection-end-line="5018" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/requests/__init__.py" />
     <entry file="file://$PROJECT_DIR$/test1.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1628">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/timestamp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/requests/packages/urllib3/response.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/models.py" />
+    <entry file="file://C:/Python27/Lib/json/encoder.py" />
+    <entry file="file://C:/Python27/Lib/json/__init__.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/requests/api.py" />
+    <entry file="file://$PROJECT_DIR$/getAllLibrarys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/201807051036testReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/201807051040testReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4dbd557b-7be0-4525-bad5-8abe26cbbf11/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/run.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="6581" selection-start-line="6581" selection-end-line="6582" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.7.2/Lib/site-packages/urllib3/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11704">
+          <caret line="548" selection-start-line="548" selection-end-line="548" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.7.2/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13288">
+          <caret line="617" selection-start-line="617" selection-end-line="617" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/packages/urllib3/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19976">
-          <caret line="940" column="0" lean-forward="false" selection-start-line="940" selection-start-column="0" selection-end-line="940" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/json/encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4598">
-          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5324">
-          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getAllLibrarys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Report/201807051036testReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Report/201807051040testReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4dbd557b-7be0-4525-bad5-8abe26cbbf11/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/yuntu.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runner.py">
+    <entry file="file://C:/python3.7.2/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-          <folding>
-            <marker date="1531380779548" expanded="true" signature="651:743" ph="SELECT userN... system_user" />
-            <marker date="1531380779548" expanded="true" signature="1051:1128" ph="SELECT id fr... system_user" />
-            <marker date="1531380779548" expanded="true" signature="1982:2074" ph="SELECT userN... system_user" />
-            <marker date="1531380779548" expanded="true" signature="2499:2546" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2547" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2553" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2556" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2565" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2499:2570" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="2696:2753" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2793" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2808" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2850" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="2696:2855" ph="SELECT id FR... system_user_department" />
-            <marker date="1531380779548" expanded="true" signature="3081:3128" ph="SELECT id FR... system_user_duty" />
-            <marker date="1531380779548" expanded="true" signature="3081:3164" ph="SELECT id FR... system_user_duty" />
-            <marker date="1531380779548" expanded="true" signature="3081:3220" ph="SELECT id FR... system_user_duty" />
-            <marker date="1531380779548" expanded="true" signature="3856:3991" ph="UPDATE system_user... " />
-            <marker date="1531380779548" expanded="true" signature="4788:4829" ph="SELECT statu... system_news" />
-            <marker date="1531380779548" expanded="true" signature="4788:4830" ph="SELECT statu... system_news" />
-            <marker date="1531380779548" expanded="true" signature="4788:4834" ph="SELECT statu... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5079:5192" ph="SELECT hallC... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="5128:5171" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5128:5172" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5128:5188" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5356:5400" ph="SELECT sourc... system_news" />
-            <marker date="1531380779548" expanded="true" signature="5555:5647" ph="SELECT hallC... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="5555:5671" ph="SELECT hallC... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="5604:5647" ph="SELECT custo... librarys" />
-            <marker date="1531380779548" expanded="true" signature="5860:5923" ph="SELECT id,us... system_user" />
-            <marker date="1531380779548" expanded="true" signature="5860:5955" ph="SELECT id,us... system_user" />
-            <marker date="1531380779548" expanded="true" signature="6951:7046" ph="SELECT id,us... system_user" />
-            <marker date="1531380779548" expanded="true" signature="7871:7963" ph="SELECT id fr... system_user" />
-            <marker date="1531380779548" expanded="true" signature="8317:8368" ph="SELECT roleI... system_user_role" />
-            <marker date="1531380779548" expanded="true" signature="8612:8727" ph="SELECT id, u... system_user" />
-            <marker date="1531380779548" expanded="true" signature="9163:9234" ph="SELECT id fr... system_customer" />
-            <marker date="1531380779548" expanded="true" signature="9375:9490" ph="SELECT id FR... system_role" />
-            <marker date="1531380779548" expanded="true" signature="9656:9805" ph="SELECT id, u... system_user" />
-          </folding>
+        <state relative-caret-position="151">
+          <caret line="904" selection-start-line="904" selection-end-line="904" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="148" column="15" lean-forward="false" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
+        <state relative-caret-position="151">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
           <folding>
-            <element signature="e#23#120#0" expanded="true" />
-            <marker date="1531366558636" expanded="true" signature="610:1106" ph="..." />
+            <element signature="e#23#99#0" expanded="true" />
+            <marker date="1553070596420" expanded="true" signature="580:1081" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="189" column="20" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="20" />
+          <folding>
+            <element signature="e#23#93#0" expanded="true" />
+            <marker date="1553070804516" expanded="true" signature="720:812" ph="SELECT userN... system_user" />
+            <marker date="1553070804516" expanded="true" signature="1103:1180" ph="SELECT id fr... system_user" />
+            <marker date="1553070804516" expanded="true" signature="2061:2153" ph="SELECT userN... system_user" />
+            <marker date="1553070804516" expanded="true" signature="2578:2625" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="2578:2626" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="2578:2632" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="2578:2635" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="2578:2644" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="2578:2649" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="2775:2832" ph="SELECT id FR... system_user_department" />
+            <marker date="1553070804516" expanded="true" signature="2775:2872" ph="SELECT id FR... system_user_department" />
+            <marker date="1553070804516" expanded="true" signature="2775:2887" ph="SELECT id FR... system_user_department" />
+            <marker date="1553070804516" expanded="true" signature="2775:2929" ph="SELECT id FR... system_user_department" />
+            <marker date="1553070804516" expanded="true" signature="2775:2934" ph="SELECT id FR... system_user_department" />
+            <marker date="1553070804516" expanded="true" signature="3160:3207" ph="SELECT id FR... system_user_duty" />
+            <marker date="1553070804516" expanded="true" signature="3160:3243" ph="SELECT id FR... system_user_duty" />
+            <marker date="1553070804516" expanded="true" signature="3160:3299" ph="SELECT id FR... system_user_duty" />
+            <marker date="1553070804516" expanded="true" signature="3934:4069" ph="UPDATE system_user... " />
+            <marker date="1553070804516" expanded="true" signature="5216:5257" ph="SELECT statu... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5216:5258" ph="SELECT statu... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5216:5262" ph="SELECT statu... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5507:5620" ph="SELECT hallC... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="5556:5599" ph="SELECT sourc... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5556:5600" ph="SELECT sourc... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5556:5616" ph="SELECT sourc... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5784:5828" ph="SELECT sourc... system_news" />
+            <marker date="1553070804516" expanded="true" signature="5983:6075" ph="SELECT hallC... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="5983:6099" ph="SELECT hallC... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="6032:6075" ph="SELECT custo... librarys" />
+            <marker date="1553070804516" expanded="true" signature="6288:6351" ph="SELECT id,us... system_user" />
+            <marker date="1553070804516" expanded="true" signature="6288:6383" ph="SELECT id,us... system_user" />
+            <marker date="1553070804516" expanded="true" signature="7379:7474" ph="SELECT id,us... system_user" />
+            <marker date="1553070804516" expanded="true" signature="10652:10744" ph="SELECT id fr... system_user" />
+            <marker date="1553070804516" expanded="true" signature="11098:11149" ph="SELECT roleI... system_user_role" />
+            <marker date="1553070804516" expanded="true" signature="11392:11507" ph="SELECT id, u... system_user" />
+            <marker date="1553070804516" expanded="true" signature="11943:12014" ph="SELECT id fr... system_customer" />
+            <marker date="1553070804516" expanded="true" signature="12155:12270" ph="SELECT id FR... system_role" />
+            <marker date="1553070804516" expanded="true" signature="12436:12585" ph="SELECT id, u... system_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="274" column="69" selection-start-line="274" selection-start-column="69" selection-end-line="274" selection-end-column="69" />
+          <folding>
+            <marker date="1553071183373" expanded="true" signature="1144:1261" ph="SELECT hallC... system_customer" />
+            <marker date="1553071183373" expanded="true" signature="1193:1260" ph="SELECT custo... librarys" />
+            <marker date="1553071183373" expanded="true" signature="1481:1580" ph="SELECT provi... system_customer" />
+            <marker date="1553071183373" expanded="true" signature="1612:1689" ph="SELECT id, n... system_customer" />
+            <marker date="1553071183373" expanded="true" signature="1816:1907" ph="SELECT provi... librarys" />
+            <marker date="1553071183373" expanded="true" signature="1939:2008" ph="SELECT id, n... librarys" />
+            <marker date="1553071183373" expanded="true" signature="2814:2860" ph="SELECT name system_province" />
+            <marker date="1553071183373" expanded="true" signature="3366:3412" ph="SELECT name system_province" />
+            <marker date="1553071183373" expanded="true" signature="3577:3619" ph="SELECT name system_city" />
+            <marker date="1553071183373" expanded="true" signature="4054:4100" ph="SELECT name system_province" />
+            <marker date="1553071183373" expanded="true" signature="4265:4307" ph="SELECT name system_city" />
+            <marker date="1553071183373" expanded="true" signature="4452:4494" ph="SELECT name system_area" />
+            <marker date="1553071183373" expanded="true" signature="6289:6412" ph="SELECT id FR... system_news" />
+            <marker date="1553071183373" expanded="true" signature="6637:6734" ph="SELECT userN... system_user" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yuntuAutocase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
           <folding>
-            <marker date="1531392491294" expanded="true" signature="1132:1249" ph="SELECT hallC... system_customer" />
-            <marker date="1531392491294" expanded="true" signature="1181:1248" ph="SELECT custo... librarys" />
-            <marker date="1531392491294" expanded="true" signature="1471:1570" ph="SELECT provi... system_customer" />
-            <marker date="1531392491294" expanded="true" signature="1602:1679" ph="SELECT id, n... system_customer" />
-            <marker date="1531392491294" expanded="true" signature="1808:1899" ph="SELECT provi... librarys" />
-            <marker date="1531392491294" expanded="true" signature="1931:2000" ph="SELECT id, n... librarys" />
-            <marker date="1531392491294" expanded="true" signature="2805:2851" ph="SELECT name system_province" />
-            <marker date="1531392491294" expanded="true" signature="3357:3403" ph="SELECT name system_province" />
-            <marker date="1531392491294" expanded="true" signature="3568:3610" ph="SELECT name system_city" />
-            <marker date="1531392491294" expanded="true" signature="4045:4091" ph="SELECT name system_province" />
-            <marker date="1531392491294" expanded="true" signature="4256:4298" ph="SELECT name system_city" />
-            <marker date="1531392491294" expanded="true" signature="4443:4485" ph="SELECT name system_area" />
-            <marker date="1531392491294" expanded="true" signature="6280:6403" ph="SELECT id FR... system_news" />
-            <marker date="1531392491294" expanded="true" signature="6628:6725" ph="SELECT userN... system_user" />
+            <element signature="e#23#82#0" expanded="true" />
           </folding>
         </state>
       </provider>

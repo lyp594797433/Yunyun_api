@@ -1,9 +1,10 @@
 import logging
 import time
+import os
 from logging import handlers
 
 time_flag = time.time()
-LOG_FILENAME = r'E:\Yunyun_api\log\run.log'
+LOG_FILENAME = (os.path.split(os.path.realpath(__file__)))[0] + '\\' + 'log\\run.log'
 
 
 # Color escape string

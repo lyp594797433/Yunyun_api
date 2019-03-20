@@ -1,6 +1,6 @@
 # -*- coding=utf-8 -*-
-import time,ConfigParser,configparser,os,log,sys,urllib,urllib2,re,random,MySQLdb,simplejson,json
-import urlparse,smtplib,traceback,requests,hashlib,json,base64
+import time,configparser,os,log,sys,urllib,re,random,pymysql,simplejson,json
+import smtplib,traceback,requests,hashlib,json,base64
 from selenium import webdriver
 from progressbar import *
 from email.mime.text import MIMEText
@@ -29,52 +29,68 @@ class Tools(Singleton):
 		self.my_user1 = self.all_config['my_user1']
 		self.my_pwd1 = self.all_config['my_pwd1']
 		# self.add = "39.108.170.48:8081"
-		self.add = "119.23.205.178"
+		self.add = "47.106.254.243:8075"
 
-	def call_rest_api(self, API_URL, req_type, hallCode=None, username=None,
-					  		password=None, files=None,data_rtn=None, header=True,
-					  		get_err_msg=True, token=None, timeout=None):
-		retry_num = 1
+	def call_rest_api(self, API_URL, req_type, files=None, data_rtn=None, header=True,
+	                  get_err_msg=True, token=None, timeout=None, multipart=False):
+		retry_num = 5
 		retry_interval_time = 10
 		cnt = 0
 		while cnt < retry_num:
-			if token == None:
-				token = self.loginYunyun()
+			if token != None:
+				'''此接口不需要再次生成token'''
+				if multipart:
+					headers = {'token': token, }
+				else:
+					headers = {
+						'token': token,
+						'Content-Type': 'application/json;charset=UTF-8'
+					}
 			else:
-				token = token
-
-			headers = {
-				'token': token,
-				'Content-Type': 'application/json;charset=UTF-8'
-			}
+				token = self.loginYunyun()
+				if multipart:
+					headers = {'token': token, }
+				else:
+					headers = {
+						'token': token,
+						'Content-Type': 'application/json;charset=UTF-8'
+					}
 			try:
 				if data_rtn != None:
 					if req_type == "POST":
 						values = json.dumps(data_rtn)
-						# obj_log.info values
+						if files:
+							req = requests.post(API_URL, headers=headers, files=files)
+						else:
+							req = requests.post(API_URL, headers=headers, data=values)
+					# obj_log.info values
 
-						req = requests.post(API_URL, data=values, headers=headers)
-						print req
 					elif req_type == "PUT":
 						# obj_log.info API_URL
 						values = json.dumps(data_rtn)
-						req = requests.put(API_URL, data=values, headers=headers,timeout=timeout)
-
+						req = requests.put(API_URL, data=values, headers=headers, timeout=timeout)
 					elif req_type == "GET":
 						# obj_log.info API_URL
-						req = requests.get(API_URL, params=data_rtn, headers=headers,timeout=timeout)
+						req = requests.get(API_URL, params=data_rtn, headers=headers, timeout=timeout)
+					elif req_type == "DELETE":
+						# obj_log.info API_URL
+						req = requests.delete(API_URL, params=data_rtn, headers=headers, timeout=timeout)
 				else:
 					if req_type == "POST":
-						values = json.dumps(data_rtn)
-						req = requests.post(API_URL, headers=headers)
-
+						if files:
+							req = requests.post(API_URL, headers=headers, files=files)
+						else:
+							req = requests.post(API_URL, headers=headers)
 					elif req_type == "PUT":
 						# obj_log.info API_URL
-						req = requests.put(API_URL, headers=headers,timeout=timeout)
+						req = requests.put(API_URL, headers=headers, timeout=timeout)
 
 					elif req_type == "GET":
 						obj_log.info(API_URL)
 						req = requests.get(API_URL, headers=headers, timeout=timeout)
+					elif req_type == "DELETE":
+						obj_log.info(API_URL)
+						req = requests.delete(API_URL, headers=headers, timeout=timeout)
 			except Exception as e:
 				if get_err_msg == True:
 					try:
@@ -106,14 +122,17 @@ class Tools(Singleton):
 		else:
 			temp_dict['hallCode'] = hallCode
 		if username == '':
-			temp_dict['username'] = "admin"
+			temp_dict['username'] = self.userName
 		else:
 			temp_dict['username'] = username
 		temp_dict['forceLogin'] = "1"
 		if password == '':
 			temp_dict['password'] = self.get_md5(self.password)
 		else:
-			temp_dict['password'] = self.get_md5(password)
+			if len(password) == 32:
+				temp_dict['password'] = password
+			else:
+				temp_dict['password'] = self.get_md5(password)
 		values = json.dumps(temp_dict)
 		API_URL = "http://" + self.add + "/api/user/login"
 		headers = {
@@ -125,7 +144,7 @@ class Tools(Singleton):
 			rtn_temp = req.text
 			rtn = json.loads(str(rtn_temp))
 			rtn = rtn['data']
-			print rtn
+			print(rtn)
 			req.close()
 			return rtn
 		else:
@@ -143,7 +162,7 @@ class Tools(Singleton):
 
 	def get_md5(self, str):
 		m = hashlib.md5()
-		m.update(str)
+		m.update(str.encode("utf8"))
 		md5 = m.hexdigest()
 		return md5
 	def get_imgbas64(self, path):
@@ -172,7 +191,7 @@ class Tools(Singleton):
 	def get_config(self, section, key, configfile):
 		config = configparser.ConfigParser()
 		path = (os.path.split(os.path.realpath(__file__)))[0] + '/' + configfile
-		config.read(path)
+		config.read(path,encoding="utf-8-sig")
 		# section = config.sections()
 		# options = config.options(self.hallCode)
 		# item = config.items(self.hallCode)
@@ -198,33 +217,40 @@ class Tools(Singleton):
 		# 	charset='utf8',
 		# 	db='bookplatform_back',
 		# )
-
-		conn = MySQLdb.connect(
-			host='rm-wz91b2j3ypnw1fbr6o.mysql.rds.aliyuncs.com',
-			port=3306,
-			user='yuntutest',
-			passwd='y!unTu@123',
-			charset='utf8',
-			db='bookplatform_test',
-		)
-		try:
-			obj_log.info("Get or change the data into MySql............")
-			obj_log.info(statement)
-			cur = conn.cursor(cursorclass=MySQLdb.cursors.DictCursor)
-			a = cur.execute(statement)
-		except Exception as e:
-			obj_log.info(e)
-		if sql_type in ("SELECT","select"):
-			info = cur.fetchmany(a)
-			rtn = list(info)
-			cur.close()
-			conn.close()
-			return rtn
-		else:
-			conn.commit()
-			cur.close()
-			conn.close()
-			return True
+		_max_retries_count = 100  # 设置最大重试次数
+		_conn_retries_count = 0  # 初始重试次数
+		_conn_timeout = 3  # 连接超时时间为3秒
+		while _conn_retries_count <= _max_retries_count:
+			try:
+				# print('连接数据库中..')
+				conn = pymysql.connect(
+					host='47.106.130.196',
+					port=3306,
+					user='root',
+					passwd='123456',
+					charset='utf8',
+					db='bookplatform_backup',
+					# db='bookplatform_dev',
+					cursorclass=pymysql.cursors.DictCursor,
+					connect_timeout=_conn_timeout
+					)
+				# obj_log.info("Get or change the data into MySql............")
+				# obj_log.info(statement)
+				cur = conn.cursor()
+				a = cur.execute(statement)
+				if sql_type in ("SELECT", "select"):
+					info = cur.fetchmany(a)
+					rtn = list(info)
+					cur.close()
+					conn.close()
+					return rtn
+				else:
+					conn.commit()
+					cur.close()
+					conn.close()
+					return True
+			except Exception as e:
+				obj_log.info(e)
 
 	def send_mail(self,to_list,bodyFile="" ,sub='QA Report',MAIL_HOST="smtp.163.com",MAIL_USER="18782019436@163.com",MAIL_PWD="lyp594797433",MAILTO_FROM='18782019436@163.com'):
 		if bodyFile != "":
@@ -244,8 +270,8 @@ class Tools(Singleton):
 			server.sendmail(MAILTO_FROM, to_list, msg.as_string())
 			server.close()
 			return True
-		except Exception, e:
-			print str(e)
+		except Exception as e:
+			print(str(e))
 			return False
 
 	def sql_event_no_dic(self, statement):
@@ -283,7 +309,7 @@ class Tools(Singleton):
 			user='test',
 			passwd='123456',
 			charset='utf8',
-			db='bookplatform_test',
+			db='bookplatform_back',
 		)
 
 		try:
@@ -367,7 +393,7 @@ class Tools(Singleton):
 			print("Get or change the data into MySql............")
 			count = cursor.execute(statement)
 		except Exception as e:
-			print e
+			print(e)
 		if count == 0:
 			print(statement)
 			return False
@@ -386,7 +412,7 @@ class Tools(Singleton):
 		# 获取并写入数据段信息
 		row = 1
 		col = 0
-		print str(len(results)) + "  " + outputpath
+		print(str(len(results)) + "  " + outputpath)
 		for row in range(1, len(results) + 1):
 			for col in range(0, len(fields)):
 				sheet.write(row, col, u'%s' % results[row - 1][col])

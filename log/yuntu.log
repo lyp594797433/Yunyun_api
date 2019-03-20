@@ -1,14 +1,5 @@
-E
-======================================================================
-ERROR: upload_movie (__main__.Yuntu_case)
+.
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "E:/Yunyun_api/yuntuAutocase.py", line 22, in upload_movie
-    self.assertEqual(self.obj_test_case.movie_upload(), True)
-  File "E:/Yunyun_api\test_case.py", line 189, in movie_upload
-NameError: global name 'hallcode' is not defined
+Ran 1 test in 6.944s
 
-----------------------------------------------------------------------
-Ran 1 test in 200.953s
-
-FAILED (errors=1)
+OK
