@@ -6,19 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/runner.py" line="177" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adf68a87-fdd1-41cc-ab32-5fbe2427be29" name="Default" comment="2018-7-12-videos">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTMLTestRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/run.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/run.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/yuntu.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/yuntu.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuntuAutocase.py" beforeDir="false" afterPath="$PROJECT_DIR$/yuntuAutocase.py" afterDir="false" />
-    </list>
+    <list default="true" id="adf68a87-fdd1-41cc-ab32-5fbe2427be29" name="Default" comment="活动新增" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -340,7 +328,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yuntu_reader_api" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -562,7 +550,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -574,7 +562,7 @@
       <workItem from="1552875790160" duration="20521000" />
       <workItem from="1552958290310" duration="6205000" />
       <workItem from="1552976138647" duration="12981000" />
-      <workItem from="1553044473262" duration="18949000" />
+      <workItem from="1553044473262" duration="19301000" />
     </task>
     <task id="LOCAL-00001" summary="2018-7-9">
       <created>1531101280532</created>
@@ -639,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531397862715</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="活动新增">
+      <created>1553071308715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553071308715</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58656000" />
+    <option name="totallyTimeSpent" value="59008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +690,8 @@
     <MESSAGE value="2018-7-9-new-git_test" />
     <MESSAGE value="2018-7-12-videos" />
     <MESSAGE value="2018-7-13-videos-successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018-7-13-videos-successfully" />
+    <MESSAGE value="活动新增" />
+    <option name="LAST_COMMIT_MESSAGE" value="活动新增" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
